@@ -1,4 +1,8 @@
 ﻿
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
 namespace Roscosmos
 {
     partial class Form1
@@ -6,7 +10,7 @@ namespace Roscosmos
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -257,22 +261,22 @@ namespace Roscosmos
 
         #endregion
 
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.NumericUpDown edSpeed;
-        private System.Windows.Forms.NumericUpDown edAngle;
-        private System.Windows.Forms.NumericUpDown edHeight;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button launchButton;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button pauseButton;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private Chart chart1;
+        private Panel panel1;
+        private NumericUpDown edSpeed;
+        private NumericUpDown edAngle;
+        private NumericUpDown edHeight;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Button launchButton;
+        private Timer timer1;
+        private Label label4;
+        private Button pauseButton;
+        private Label label5;
+        private Label label6;
+        private Label label8;
+        private Label label7;
     }
 }
 
